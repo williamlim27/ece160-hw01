@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 int main(int argc, char*argv[]){
-
 float x = atof(argv[2]);
 float y = atof(argv[3]);
 float answer = 0;
@@ -11,19 +10,19 @@ float answer = 0;
 		
 char operation = argv[1][0];
 	switch(operation) {
-		case('+'):;
+		case '+':
 			answer = x + y; 
 			break;
-		case('-'):;
+		case'-':
 			answer = x - y; 
 			break;
-		case('x'):;
+		case'x':
 			answer = x * y; 
 			break;
-		case('/'):;
+		case'/':
 			answer = x / y; 
 			break;
-		default:;
+		default:
 			printf("try again\n");
 	}
 			printf("%g\n", answer);
