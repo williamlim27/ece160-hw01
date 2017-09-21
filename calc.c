@@ -9,23 +9,23 @@ float y = atof(argv[3]);
 float answer = 0;
 
 		
-			char operation = argv[1][0];
-			switch(operation) {
-				case('+'):;
-				answer = x + y; 
-				break;
-				case('-'):;
-				answer = x - y; 
-				break;
-				case('x'):;
-				answer = x * y; 
-				break;
-				case('/'):;
-				answer = x / y; 
-				break;
-				default:;
-				printf("try again\n");
-			}
+char operation = argv[1][0];
+	switch(operation) {
+		case('+'):;
+			answer = x + y; 
+			break;
+		case('-'):;
+			answer = x - y; 
+			break;
+		case('x'):;
+			answer = x * y; 
+			break;
+		case('/'):;
+			answer = x / y; 
+			break;
+		default:;
+			printf("try again\n");
+	}
 			printf("%g\n", answer);
 		
 		return 0;
