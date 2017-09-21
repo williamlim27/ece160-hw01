@@ -30,20 +30,3 @@ float answer = 0;
 		
 		return 0;
 }
-
-/*
-{
-
-for (int i =1; i < argc; ++i) {
-	if (strcmp(argv[i], "1") == 0) {
-		printf("one\n");
-	 } else if (strcmp (argv[i], "2") == 0){
-		printf("two\n");
-	} else if (strcmp (argv[i], "3") == 0) {
-		printf("three\n");
-	} else {
-		printf("three\n");
-	}
-	return 0;
-}
-*/
